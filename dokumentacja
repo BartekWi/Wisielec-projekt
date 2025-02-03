@@ -1,0 +1,32 @@
+Politechnika Śląska
+Wydział Matematyk Stosowanej
+Kierunek Informatyka
+Gliwice, 01.10.2024
+
+
+
+Programowanie I
+projekt zaliczeniowy
+"Wisielec"
+
+Bartosz Więcek gr. lab. 2.3
+
+1. Opis projektu.
+Gra w wisielca
+2. Funkcjonalności. 
+Gra z drugą osobą, gdzie jedna osoba wymyśla hasło, a druga próbuje je odgadnąć
+Gra z komputerem w której gracz na zmianę z komputerem zgadują kolejne litery
+Gra przeciwko komputerowi w której gracz i komputer mają osobne hasła.
+3. Przebieg realizacji.
+Stworzenie menu do wyboru trybu gry
+Umożliwienie graczowi wcześniejsze odgadnięcie hasła
+Rysowanie aktualnego "stanu" wisielca po każdym zgadnięciu litery. W przypadku gdy komputer ma inne hasło rysowane są oba wisielce na raz.
+Komputer zgaduje tylko te litery które jeszcze nie zostały użyte. W trybie drugim gdzie gracz i komputer zgadują razem, odrzucane są również litery których użył gracz.
+Program składa się z następujących plików:
+naglowek.h gdzie zawarte są deklaracje funkcji
+funkcje.cpp gdzie zawarte są definicje funkcji
+main.cpp w którym znajduje się kod programu
+4. Instrukcja użytkownika.
+Należy wybrać tryb gry poprzez wpisanie numeru od 1 do 4 (lub 5 aby zakończyć). Aby spróbować wcześniej odgadnąć hasło należy wpisać znak "`", a następnie wprowadzić hasło z małych liter. W pierwszym trybie należy podać hasło a następnie je odgadnąć. W drugim hasło jest losowane i zgadujemy na zmianę z komputerem. W trzecim staramy się zgadnąć wylosowane hasło, zanim komputer zgadnie swoje hasło, lub zanim jeden z wisielców będzie kompletny.
+5. Podsumowanie i wnioski.
+Zrealizowałem program umożliwiający grę w wisielca. Dalszym kierunkiem rozwoju byłoby dodanie polskich znaków, wybór pozimu trudności przez gracza, który sam mógłby wpisać po ilu błędach gra się kończy. Komputer mógłby również zaczynać od zgadywania liter które są bardziej prawdopodobne jak np "a".
